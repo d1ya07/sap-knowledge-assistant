@@ -1,0 +1,25 @@
+# Secret keys — NEVER upload these
+.env
+
+# Virtual environment — too large to upload
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# FAISS index — rebuilds automatically
+vectorstore/
+
+# Uploaded PDFs — may be confidential
+data/*.pdf
+data/feedback_log.csv
+data/usage_log.csv
+data/search_history.csv
+
+# Mac system file
+.DS_Store
+
+# VS Code settings
+.vscode/
